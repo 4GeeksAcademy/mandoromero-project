@@ -1,1 +1,22 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+h1 {
+  text-align: center;
+  padding-top: 0;
+  text-decoration: solid;
+}
+h2 {
+  text-align: center;
+  padding-top: 50px;
+  text-decoration: solid;
+}
+body {
+  background-color: rgb(159, 43, 43);
+}
+.centered-image {
+  display: flex;
+  justify-content: center;
+}
+img {
+  height: 500px;
+  width: 560px;
+

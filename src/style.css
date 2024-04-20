@@ -1,32 +1,17 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-h1 {
-  text-align: center;
-  padding-top: 0;
-  text-decoration: solid;
-}
-h2 {
-  text-align: center;
-  padding-top: 50px;
-  text-decoration: solid;
-}
 body {
-  background-color: rgb(159, 43, 43);
+  background-image: url("./assets/img/blank-fortune.png");
+  background-repeat: no-repeat;
+  background-color: darkslategray;
 }
-/* .centered-image {
-  display: flex;
-  justify-content: center;
-} */
 img {
   height: 600px;
   width: 660px;
   z-index: -1;
 }
 #fortune {
+  postion: absolute;
   z-index: 1;
-}
-.child {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 197px 0px 16px 219px;
+  width: 274px;
 }

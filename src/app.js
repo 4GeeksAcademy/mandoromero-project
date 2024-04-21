@@ -3,7 +3,7 @@ import "bootstrap";
 import "./style.css";
 
 let who = [
-  "Love is",
+  "Love life is",
   "Your finances are",
   "Your health is",
   "Your Spirituality is"
@@ -11,7 +11,7 @@ let who = [
 let action = ["looking up", "stagnate", "looking down"];
 let what = [
   "but stay true to your path.",
-  "but don't loose focus on your goals.",
+  "but don't loose focus of your goals.",
   "and good fortune is around the corner.",
   "but be ready for an new adventure."
 ];
